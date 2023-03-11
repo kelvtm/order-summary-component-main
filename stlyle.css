@@ -1,0 +1,95 @@
+ @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@800&family=Outfit:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.dance {
+    border-radius: 2rem 2rem 0 0;
+    width: 100%;
+}
+main {
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    max-width: 430px;
+    min-height: 100%;
+    border-radius: 2rem;
+}
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 800;
+}
+.you {
+    line-height: 150%;
+    font-size: 1.4rem;
+    color: hsl(223, 47%, 23%);
+}
+.price {
+    font-weight: 400;
+}
+.order {
+    text-align: center;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.annual {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    justify-items: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+body {
+    background-color: aliceblue;
+}
+.top {
+    margin: 1rem auto; 
+    margin-bottom: 0;
+    padding: 1rem;
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    box-shadow: 10px 30px 15px hsla(245, 91%, 82%, 0.359);
+}
+a {
+    color: hsl(245, 75%, 52%);
+}
+.bottom {
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: hsl(223, 47%, 23%);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+button:hover {
+    background-color: rgb(122, 155, 70);
+}
+/* desktop design */
+@media only screen and (min-width: 600px) { 
+    body {
+        background-image: url(/images/pattern-background-desktop.svg);
+    }
+    
+}
