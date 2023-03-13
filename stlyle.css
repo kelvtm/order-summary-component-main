@@ -17,23 +17,23 @@ body {
 
 .dance {
     border-radius: 2rem 2rem 0 0;
-    width: 100%;
 }
 main {
     min-height: 100vh;
     background-color: rgb(255, 255, 255);
-    max-width: 430px;
+    max-width: 450px;
     min-height: 100%;
     border-radius: 2rem;
 }
 h1 {
     color: hsl(223, 47%, 23%);
     font-weight: 800;
+    font-size: 1.7rem;
 }
 .you {
     line-height: 150%;
-    font-size: 1.4rem;
-    color: hsl(223, 47%, 23%);
+    font-size: 1.2rem;
+    color: hsl(223, 39%, 37%);
 }
 .price {
     font-weight: 400;
@@ -46,13 +46,16 @@ h1 {
 }
 .annual {
     background-color: hsl(225, 100%, 98%);
-    display: flex;
-    padding-left: 1rem;
-    padding-right: 2rem;
-    justify-items: center;
-    align-items: center;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50px 150px 200px;
+    justify-content: space-between;
+    border-radius: 20px;
+    align-content: center;
+    padding-left: 20px;
+}
+.ch {
+    margin-top: 30px;
 }
 body {
     background-color: aliceblue;
@@ -79,7 +82,7 @@ a {
     width: 100%;
     border: none;
     background-color: transparent;
-    color: hsl(223, 47%, 23%);
+    color: hsl(223, 57%, 39%);
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -90,6 +93,8 @@ button:hover {
 @media only screen and (min-width: 600px) { 
     body {
         background-image: url(/images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
     
 }
